@@ -1,0 +1,61 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the layout */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+header {
+background-color: rgb(227, 124, 22);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Georgia', serif;
+  font-size: 32px;
+}
+
+main {
+  padding: 20px;
+}
+
+section#intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 300%;
+  height:350px;
+  border-radius: 20%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.intro-text {
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.6;
+}
+footer{
+    background-color: rgb(227, 124, 22);
+    color: #fff;
+    padding: 20px ;
+    text-align: center;
+}
